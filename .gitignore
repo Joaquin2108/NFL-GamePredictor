@@ -20,6 +20,10 @@ __pycache__/
 .vscode/
 .idea/
 
+data/raw/
+data/processed/*
+
+!data/processed/model_data.parquet
 
 # Python distribution
 *.egg-info/
