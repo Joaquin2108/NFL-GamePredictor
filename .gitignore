@@ -20,9 +20,6 @@ __pycache__/
 .vscode/
 .idea/
 
-# Data files
-data/raw/
-data/processed/
 
 # Python distribution
 *.egg-info/
