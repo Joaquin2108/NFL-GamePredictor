@@ -152,7 +152,6 @@ st.markdown(
         border-radius: 18px;
 
         padding: 2.2rem 2.4rem;
-
         margin-bottom: 1.4rem;
     }
 
@@ -167,81 +166,47 @@ st.markdown(
         height: 300px;
 
         border-radius: 50%;
-
-        border: 1px solid rgba(59,130,246,0.12);
+        border: 1px solid rgba(59, 130, 246, 0.12);
     }
 
     .hero-kicker {
         color: #60a5fa;
-
         font-size: 0.7rem;
         font-weight: 800;
-
         letter-spacing: 0.16em;
         text-transform: uppercase;
-
         margin-bottom: 0.6rem;
     }
 
     .hero-title {
         color: #f8fafc;
-
         font-size: 2.65rem;
         line-height: 1;
-
         font-weight: 850;
         letter-spacing: -0.04em;
     }
 
     .hero-subtitle {
         color: #94a3b8;
-
         font-size: 0.92rem;
-
         margin-top: 0.8rem;
-
         max-width: 680px;
-
         line-height: 1.55;
     }
 
     .hero-badge {
         display: inline-block;
-
         margin-top: 1.25rem;
-
         padding: 0.4rem 0.7rem;
 
-        background: rgba(30,41,59,0.8);
-
+        background: rgba(30, 41, 59, 0.8);
         border: 1px solid #334155;
-
         border-radius: 7px;
 
         color: #cbd5e1;
-
         font-size: 0.68rem;
         font-weight: 750;
-
         letter-spacing: 0.04em;
-    }
-
-
-    /* ========================================================
-       TOP NAV
-    ======================================================== */
-
-    .nav-label {
-        color: #64748b;
-
-        font-size: 0.67rem;
-        font-weight: 800;
-
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-
-        margin-top: 1.4rem;
-        margin-bottom: 0.6rem;
     }
 
 
@@ -260,18 +225,14 @@ st.markdown(
 
     .section-title {
         color: #f8fafc;
-
         font-size: 1.15rem;
         font-weight: 800;
-
         letter-spacing: -0.02em;
     }
 
     .section-subtitle {
         color: #64748b;
-
         font-size: 0.76rem;
-
         margin-top: 0.2rem;
     }
 
@@ -282,40 +243,30 @@ st.markdown(
 
     .metric-card {
         background: #111827;
-
         border: 1px solid #1e293b;
-
         border-radius: 12px;
-
         padding: 1rem 1.1rem;
-
         min-height: 90px;
     }
 
     .metric-label {
         color: #64748b;
-
         font-size: 0.63rem;
         font-weight: 800;
-
         letter-spacing: 0.1em;
         text-transform: uppercase;
     }
 
     .metric-value {
         color: #f8fafc;
-
         font-size: 1.45rem;
         font-weight: 850;
-
         margin-top: 0.3rem;
     }
 
     .metric-note {
         color: #475569;
-
         font-size: 0.68rem;
-
         margin-top: 0.15rem;
     }
 
@@ -326,13 +277,9 @@ st.markdown(
 
     .game-card {
         background: #111827;
-
         border: 1px solid #1e293b;
-
         border-radius: 14px;
-
         margin-bottom: 0.9rem;
-
         overflow: hidden;
     }
 
@@ -344,21 +291,19 @@ st.markdown(
         padding: 0.75rem 1.1rem;
 
         border-bottom: 1px solid #1e293b;
-
         background: #0f172a;
     }
 
     .game-time {
         color: #64748b;
-
         font-size: 0.7rem;
         font-weight: 750;
-
         text-transform: uppercase;
         letter-spacing: 0.04em;
     }
 
     .confidence-label {
+        color: #64748b;
         font-size: 0.68rem;
         font-weight: 750;
     }
@@ -382,11 +327,8 @@ st.markdown(
 
     .matchup {
         display: grid;
-
         grid-template-columns: 1fr 70px 1fr;
-
         align-items: center;
-
         padding: 1.4rem 1.3rem 1rem;
     }
 
@@ -410,48 +352,37 @@ st.markdown(
         height: 48px;
 
         border-radius: 10px;
-
         background: #1e293b;
-
         border: 1px solid #334155;
 
         color: #f8fafc;
-
         font-size: 0.85rem;
         font-weight: 850;
     }
 
     .team-code {
         color: #f8fafc;
-
         font-size: 1.2rem;
         font-weight: 850;
-
         letter-spacing: -0.02em;
     }
 
     .team-name {
         color: #64748b;
-
         font-size: 0.68rem;
-
         margin-top: 0.15rem;
     }
 
     .team-record {
         color: #94a3b8;
-
         font-size: 0.7rem;
         font-weight: 700;
-
         margin-top: 0.25rem;
     }
 
     .versus {
         text-align: center;
-
         color: #475569;
-
         font-size: 0.7rem;
         font-weight: 800;
     }
@@ -467,7 +398,6 @@ st.markdown(
 
     .probability-row {
         display: flex;
-
         justify-content: space-between;
         align-items: center;
 
@@ -477,14 +407,12 @@ st.markdown(
 
     .probability-team {
         color: #64748b;
-
         font-size: 0.68rem;
         font-weight: 750;
     }
 
     .probability-value {
         color: #e2e8f0;
-
         font-size: 0.75rem;
         font-weight: 850;
     }
@@ -492,30 +420,27 @@ st.markdown(
     .bar {
         width: 100%;
         height: 6px;
-
         background: #1e293b;
-
         border-radius: 999px;
-
         overflow: hidden;
     }
 
     .bar-fill-away {
         height: 100%;
         background: #475569;
-
         border-radius: 999px;
     }
 
     .bar-fill-home {
         height: 100%;
         background: #3b82f6;
-
         border-radius: 999px;
     }
 
     .bar-fill-winner {
+        height: 100%;
         background: #22c55e;
+        border-radius: 999px;
     }
 
 
@@ -525,18 +450,13 @@ st.markdown(
 
     .card-bottom {
         display: grid;
-
-        grid-template-columns:
-            repeat(3, 1fr);
-
+        grid-template-columns: repeat(3, 1fr);
         border-top: 1px solid #1e293b;
     }
 
     .card-stat {
         padding: 0.7rem 0.8rem;
-
         border-right: 1px solid #1e293b;
-
         text-align: center;
     }
 
@@ -546,20 +466,16 @@ st.markdown(
 
     .card-stat-label {
         color: #475569;
-
         font-size: 0.58rem;
         font-weight: 800;
-
         letter-spacing: 0.07em;
         text-transform: uppercase;
     }
 
     .card-stat-value {
         color: #cbd5e1;
-
         font-size: 0.76rem;
         font-weight: 800;
-
         margin-top: 0.15rem;
     }
 
@@ -570,39 +486,32 @@ st.markdown(
 
     .prediction-strip {
         display: flex;
-
         align-items: center;
         justify-content: space-between;
 
         padding: 0.85rem 1.1rem;
 
         background: #0f172a;
-
         border-top: 1px solid #1e293b;
     }
 
     .prediction-caption {
         color: #475569;
-
         font-size: 0.6rem;
         font-weight: 800;
-
         letter-spacing: 0.1em;
         text-transform: uppercase;
     }
 
     .prediction-name {
         color: #f8fafc;
-
         font-size: 0.85rem;
         font-weight: 850;
-
         margin-top: 0.1rem;
     }
 
     .prediction-probability {
         color: #4ade80;
-
         font-size: 1rem;
         font-weight: 900;
     }
@@ -614,11 +523,8 @@ st.markdown(
 
     div[data-testid="stExpander"] {
         background: #0f172a !important;
-
         border: 1px solid #1e293b !important;
-
         border-radius: 10px !important;
-
         margin-bottom: 0.9rem;
     }
 
@@ -635,30 +541,25 @@ st.markdown(
 
 
     /* ========================================================
-       SIDEBAR TEXT
+       SIDEBAR
     ======================================================== */
 
     .sidebar-brand {
         color: #f8fafc;
-
         font-size: 1rem;
         font-weight: 850;
     }
 
     .sidebar-version {
         color: #475569;
-
         font-size: 0.67rem;
-
         margin-top: 0.2rem;
     }
 
     .sidebar-section {
         color: #64748b;
-
         font-size: 0.62rem;
         font-weight: 800;
-
         letter-spacing: 0.12em;
         text-transform: uppercase;
 
@@ -673,30 +574,22 @@ st.markdown(
 
     .model-panel {
         background: #111827;
-
         border: 1px solid #1e293b;
-
         border-radius: 14px;
-
         padding: 1.2rem;
-
         margin-top: 1.8rem;
     }
 
     .model-title {
         color: #f8fafc;
-
         font-size: 0.95rem;
         font-weight: 850;
     }
 
     .model-text {
         color: #64748b;
-
         font-size: 0.75rem;
-
         line-height: 1.6;
-
         margin-top: 0.55rem;
     }
 
@@ -707,19 +600,14 @@ st.markdown(
 
     .stButton > button {
         border-radius: 8px;
-
         border: 1px solid #263244;
-
         background: #111827;
-
         color: #cbd5e1;
-
         font-weight: 700;
     }
 
     .stButton > button:hover {
         border-color: #3b82f6;
-
         color: white;
     }
 
@@ -730,9 +618,7 @@ st.markdown(
 
     div[data-baseweb="select"] > div {
         background: #111827;
-
         border-color: #263244;
-
         color: #e2e8f0;
     }
 
@@ -748,7 +634,6 @@ st.markdown(
 
 @st.cache_data
 def load_historical_data():
-
     return pl.read_parquet(
         "data/processed/model_data.parquet"
     )
@@ -814,9 +699,7 @@ final_rf = train_model(
     model_data
 )
 
-schedule_2026, pbp_2026 = (
-    load_2026_data()
-)
+schedule_2026, pbp_2026 = load_2026_data()
 
 
 # ============================================================
@@ -830,14 +713,15 @@ def build_team_games(games):
         "season",
         "week",
 
-        pl.col("home_team")
-        .alias("team"),
+        pl.col("home_team").alias("team"),
 
-        pl.col("home_score")
-        .alias("points_for"),
+        pl.col("home_score").alias(
+            "points_for"
+        ),
 
-        pl.col("away_score")
-        .alias("points_against"),
+        pl.col("away_score").alias(
+            "points_against"
+        ),
 
         (
             pl.col("result") > 0
@@ -851,14 +735,15 @@ def build_team_games(games):
         "season",
         "week",
 
-        pl.col("away_team")
-        .alias("team"),
+        pl.col("away_team").alias("team"),
 
-        pl.col("away_score")
-        .alias("points_for"),
+        pl.col("away_score").alias(
+            "points_for"
+        ),
 
-        pl.col("home_score")
-        .alias("points_against"),
+        pl.col("home_score").alias(
+            "points_against"
+        ),
 
         (
             pl.col("result") < 0
@@ -876,9 +761,7 @@ def build_team_games(games):
     )
 
 
-def build_current_team_features(
-    schedule
-):
+def build_current_team_features(schedule):
 
     completed = schedule.filter(
         pl.col("home_score").is_not_null()
@@ -981,10 +864,8 @@ def build_current_team_features(
     )
 
 
-current_team_features = (
-    build_current_team_features(
-        schedule_2026
-    )
+current_team_features = build_current_team_features(
+    schedule_2026
 )
 
 
@@ -1176,62 +1057,84 @@ def build_prediction_dataset():
 
     home = current_team_features.rename({
         "team": "home_team",
+
         "win_pct": "home_win_pct",
         "ppg": "home_ppg",
         "papg": "home_papg",
+
         "rolling_win_pct_5":
             "home_rolling_win_pct_5",
+
         "rolling_ppg_5":
             "home_rolling_ppg_5",
+
         "rolling_papg_5":
             "home_rolling_papg_5",
+
         "rolling_point_diff_5":
             "home_rolling_point_diff_5",
     })
 
     away = current_team_features.rename({
         "team": "away_team",
+
         "win_pct": "away_win_pct",
         "ppg": "away_ppg",
         "papg": "away_papg",
+
         "rolling_win_pct_5":
             "away_rolling_win_pct_5",
+
         "rolling_ppg_5":
             "away_rolling_ppg_5",
+
         "rolling_papg_5":
             "away_rolling_papg_5",
+
         "rolling_point_diff_5":
             "away_rolling_point_diff_5",
     })
 
     home_epa = current_epa.rename({
         "team": "home_team",
+
         "off_epa_per_play":
             "home_off_epa",
+
         "def_epa_allowed_per_play":
             "home_def_epa",
+
         "rolling_off_epa_per_play_5":
             "home_rolling_off_epa_5",
+
         "rolling_def_epa_allowed_per_play_5":
             "home_rolling_def_epa_5",
+
         "rolling_pass_epa_per_play_5":
             "home_rolling_pass_epa_5",
+
         "rolling_rush_epa_per_play_5":
             "home_rolling_rush_epa_5",
     })
 
     away_epa = current_epa.rename({
         "team": "away_team",
+
         "off_epa_per_play":
             "away_off_epa",
+
         "def_epa_allowed_per_play":
             "away_def_epa",
+
         "rolling_off_epa_per_play_5":
             "away_rolling_off_epa_5",
+
         "rolling_def_epa_allowed_per_play_5":
             "away_rolling_def_epa_5",
+
         "rolling_pass_epa_per_play_5":
             "away_rolling_pass_epa_5",
+
         "rolling_rush_epa_per_play_5":
             "away_rolling_rush_epa_5",
     })
@@ -1261,6 +1164,7 @@ def build_prediction_dataset():
     )
 
     return data.with_columns([
+
         (
             pl.col("home_win_pct")
             -
@@ -1280,49 +1184,33 @@ def build_prediction_dataset():
         ).alias("defense_diff"),
 
         (
-            pl.col(
-                "home_rolling_win_pct_5"
-            )
+            pl.col("home_rolling_win_pct_5")
             -
-            pl.col(
-                "away_rolling_win_pct_5"
-            )
+            pl.col("away_rolling_win_pct_5")
         ).alias(
             "rolling_win_pct_diff_5"
         ),
 
         (
-            pl.col(
-                "home_rolling_ppg_5"
-            )
+            pl.col("home_rolling_ppg_5")
             -
-            pl.col(
-                "away_rolling_ppg_5"
-            )
+            pl.col("away_rolling_ppg_5")
         ).alias(
             "rolling_ppg_diff_5"
         ),
 
         (
-            pl.col(
-                "away_rolling_papg_5"
-            )
+            pl.col("away_rolling_papg_5")
             -
-            pl.col(
-                "home_rolling_papg_5"
-            )
+            pl.col("home_rolling_papg_5")
         ).alias(
             "rolling_defense_diff_5"
         ),
 
         (
-            pl.col(
-                "home_rolling_point_diff_5"
-            )
+            pl.col("home_rolling_point_diff_5")
             -
-            pl.col(
-                "away_rolling_point_diff_5"
-            )
+            pl.col("away_rolling_point_diff_5")
         ).alias(
             "rolling_point_diff_diff_5"
         ),
@@ -1340,58 +1228,40 @@ def build_prediction_dataset():
         ).alias("def_epa_diff"),
 
         (
-            pl.col(
-                "home_rolling_off_epa_5"
-            )
+            pl.col("home_rolling_off_epa_5")
             -
-            pl.col(
-                "away_rolling_off_epa_5"
-            )
+            pl.col("away_rolling_off_epa_5")
         ).alias(
             "rolling_off_epa_diff_5"
         ),
 
         (
-            pl.col(
-                "away_rolling_def_epa_5"
-            )
+            pl.col("away_rolling_def_epa_5")
             -
-            pl.col(
-                "home_rolling_def_epa_5"
-            )
+            pl.col("home_rolling_def_epa_5")
         ).alias(
             "rolling_def_epa_diff_5"
         ),
 
         (
-            pl.col(
-                "home_rolling_pass_epa_5"
-            )
+            pl.col("home_rolling_pass_epa_5")
             -
-            pl.col(
-                "away_rolling_pass_epa_5"
-            )
+            pl.col("away_rolling_pass_epa_5")
         ).alias(
             "rolling_pass_epa_diff_5"
         ),
 
         (
-            pl.col(
-                "home_rolling_rush_epa_5"
-            )
+            pl.col("home_rolling_rush_epa_5")
             -
-            pl.col(
-                "away_rolling_rush_epa_5"
-            )
+            pl.col("away_rolling_rush_epa_5")
         ).alias(
             "rolling_rush_epa_diff_5"
         ),
     ])
 
 
-prediction_dataset = (
-    build_prediction_dataset()
-)
+prediction_dataset = build_prediction_dataset()
 
 
 # ============================================================
@@ -1420,6 +1290,7 @@ predictions = (
         "week",
         "gameday",
         "gametime",
+
         "away_team",
         "home_team",
 
@@ -1451,7 +1322,8 @@ predictions = (
     ])
     .with_columns([
         (
-            1 -
+            1
+            -
             pl.col(
                 "home_win_probability"
             )
@@ -1483,22 +1355,24 @@ predictions = (
 
 with st.sidebar:
 
-    st.markdown(
+    st.html(
         """
         <div class="sidebar-brand">
-            🏈 NFL Predictor
+            NFL Predictor
         </div>
 
         <div class="sidebar-version">
             2026 Season • Random Forest V3
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
-    st.markdown(
-        '<div class="sidebar-section">Dashboard</div>',
-        unsafe_allow_html=True,
+    st.html(
+        """
+        <div class="sidebar-section">
+            Dashboard
+        </div>
+        """
     )
 
     page = st.radio(
@@ -1511,9 +1385,12 @@ with st.sidebar:
         label_visibility="collapsed",
     )
 
-    st.markdown(
-        '<div class="sidebar-section">Week</div>',
-        unsafe_allow_html=True,
+    st.html(
+        """
+        <div class="sidebar-section">
+            Week
+        </div>
+        """
     )
 
     weeks = sorted(
@@ -1530,21 +1407,27 @@ with st.sidebar:
         label_visibility="collapsed",
     )
 
-    st.markdown(
-        '<div class="sidebar-section">Data</div>',
-        unsafe_allow_html=True,
+    st.html(
+        """
+        <div class="sidebar-section">
+            Data
+        </div>
+        """
     )
 
     if st.button(
-        "↻ Refresh data",
+        "Refresh data",
         use_container_width=True,
     ):
         st.cache_data.clear()
         st.cache_resource.clear()
         st.rerun()
 
-    st.markdown(
-        """
+    training_min = model_data["season"].min()
+    training_max = model_data["season"].max()
+
+    st.html(
+        f"""
         <div style="
             color:#475569;
             font-size:0.65rem;
@@ -1552,7 +1435,7 @@ with st.sidebar:
             margin-top:1rem;
         ">
             Historical training data<br>
-            2015–2025<br><br>
+            {training_min}–{training_max}<br><br>
 
             Current season data<br>
             2026 NFL regular season<br><br>
@@ -1560,8 +1443,7 @@ with st.sidebar:
             Source<br>
             NFLverse
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
@@ -1569,7 +1451,7 @@ with st.sidebar:
 # HERO
 # ============================================================
 
-st.markdown(
+st.html(
     """
     <div class="hero">
 
@@ -1592,8 +1474,7 @@ st.markdown(
         </div>
 
     </div>
-    """,
-    unsafe_allow_html=True,
+    """
 )
 
 
@@ -1606,8 +1487,7 @@ if page == "Predictions":
     week_predictions = (
         predictions
         .filter(
-            pl.col("week")
-            == selected_week
+            pl.col("week") == selected_week
         )
         .sort("gameday")
     )
@@ -1617,14 +1497,12 @@ if page == "Predictions":
     )
 
     if total_games == 0:
-
         st.info(
             "There are no upcoming games for this week."
         )
-
         st.stop()
 
-    avg_confidence = (
+    week_predictions = (
         week_predictions
         .with_columns(
             pl.max_horizontal([
@@ -1633,6 +1511,10 @@ if page == "Predictions":
             ])
             .alias("confidence")
         )
+    )
+
+    avg_confidence = (
+        week_predictions
         .select(
             pl.col("confidence").mean()
         )
@@ -1641,13 +1523,6 @@ if page == "Predictions":
 
     strongest = (
         week_predictions
-        .with_columns(
-            pl.max_horizontal([
-                "home_win_probability",
-                "away_win_probability",
-            ])
-            .alias("confidence")
-        )
         .sort(
             "confidence",
             descending=True,
@@ -1658,11 +1533,19 @@ if page == "Predictions":
         )
     )
 
+    high_confidence = (
+        week_predictions
+        .filter(
+            pl.col("confidence") >= 0.70
+        )
+        .height
+    )
+
     # --------------------------------------------------------
-    # WEEK SUMMARY
+    # WEEK HEADER
     # --------------------------------------------------------
 
-    st.markdown(
+    st.html(
         f"""
         <div class="section-header">
 
@@ -1677,18 +1560,19 @@ if page == "Predictions":
             </div>
 
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
+
+    # --------------------------------------------------------
+    # SUMMARY CARDS
+    # --------------------------------------------------------
 
     c1, c2, c3, c4 = st.columns(4)
 
     with c1:
-
-        st.markdown(
+        st.html(
             f"""
             <div class="metric-card">
-
                 <div class="metric-label">
                     Games
                 </div>
@@ -1700,20 +1584,16 @@ if page == "Predictions":
                 <div class="metric-note">
                     Upcoming matchups
                 </div>
-
             </div>
-            """,
-            unsafe_allow_html=True,
+            """
         )
 
     with c2:
-
-        st.markdown(
+        st.html(
             f"""
             <div class="metric-card">
-
                 <div class="metric-label">
-                    Avg. Confidence
+                    Avg. Win Probability
                 </div>
 
                 <div class="metric-value">
@@ -1721,20 +1601,21 @@ if page == "Predictions":
                 </div>
 
                 <div class="metric-note">
-                    Across all games
+                    Strongest side across games
                 </div>
-
             </div>
-            """,
-            unsafe_allow_html=True,
+            """
         )
 
     with c3:
+        strongest_probability = max(
+            strongest["home_win_probability"],
+            strongest["away_win_probability"],
+        )
 
-        st.markdown(
+        st.html(
             f"""
             <div class="metric-card">
-
                 <div class="metric-label">
                     Strongest Pick
                 </div>
@@ -1744,40 +1625,18 @@ if page == "Predictions":
                 </div>
 
                 <div class="metric-note">
-                    {max(
-                        strongest["home_win_probability"],
-                        strongest["away_win_probability"]
-                    ):.1%} probability
+                    {strongest_probability:.1%} win probability
                 </div>
-
             </div>
-            """,
-            unsafe_allow_html=True,
+            """
         )
 
     with c4:
-
-        high_confidence = (
-            week_predictions
-            .with_columns(
-                pl.max_horizontal([
-                    "home_win_probability",
-                    "away_win_probability",
-                ])
-                .alias("confidence")
-            )
-            .filter(
-                pl.col("confidence") >= 0.70
-            )
-            .height
-        )
-
-        st.markdown(
+        st.html(
             f"""
             <div class="metric-card">
-
                 <div class="metric-label">
-                    High Confidence
+                    High Probability
                 </div>
 
                 <div class="metric-value">
@@ -1785,60 +1644,53 @@ if page == "Predictions":
                 </div>
 
                 <div class="metric-note">
-                    ≥ 70% probability
+                    Games ≥ 70%
                 </div>
-
             </div>
-            """,
-            unsafe_allow_html=True,
+            """
         )
 
     # --------------------------------------------------------
     # GAME CARDS
     # --------------------------------------------------------
 
-    for row in (
-        week_predictions
-        .iter_rows(named=True)
+    for row in week_predictions.iter_rows(
+        named=True
     ):
 
         home = row["home_team"]
         away = row["away_team"]
 
         home_prob = (
-            row["home_win_probability"]
-            * 100
+            row["home_win_probability"] * 100
         )
 
         away_prob = (
-            row["away_win_probability"]
-            * 100
+            row["away_win_probability"] * 100
         )
 
         winner = row[
             "predicted_winner"
         ]
 
-        confidence = max(
+        probability = max(
             home_prob,
             away_prob,
         )
 
-        if confidence >= 70:
-            confidence_text = "HIGH"
-            confidence_class = (
+        if probability >= 70:
+            probability_text = "HIGH"
+            probability_class = (
                 "confidence-high"
             )
-
-        elif confidence >= 60:
-            confidence_text = "MEDIUM"
-            confidence_class = (
+        elif probability >= 60:
+            probability_text = "MODERATE"
+            probability_class = (
                 "confidence-medium"
             )
-
         else:
-            confidence_text = "LOW"
-            confidence_class = (
+            probability_text = "CLOSE"
+            probability_class = (
                 "confidence-low"
             )
 
@@ -1865,14 +1717,12 @@ if page == "Predictions":
         )
 
         home_record = (
-            f"{int(home_stats['wins'])}"
-            f"-"
+            f"{int(home_stats['wins'])}-"
             f"{int(home_stats['games'] - home_stats['wins'])}"
         )
 
         away_record = (
-            f"{int(away_stats['wins'])}"
-            f"-"
+            f"{int(away_stats['wins'])}-"
             f"{int(away_stats['games'] - away_stats['wins'])}"
         )
 
@@ -1888,210 +1738,196 @@ if page == "Predictions":
             else "bar-fill-home"
         )
 
-        card = f"""
-        <div class="game-card">
+        st.html(
+            f"""
+            <div class="game-card">
 
-            <div class="game-top">
+                <div class="game-top">
 
-                <div class="game-time">
-                    {row['gameday']} •
-                    {row['gametime']}
-                </div>
-
-                <div class="confidence-label">
-                    Confidence:
-                    <span class="{confidence_class}">
-                        {confidence_text}
-                        {confidence:.1f}%
-                    </span>
-                </div>
-
-            </div>
-
-
-            <div class="matchup">
-
-                <div class="team">
-
-                    <div class="team-mark">
-                        {away}
+                    <div class="game-time">
+                        {row['gameday']} • {row['gametime']}
                     </div>
 
-                    <div>
+                    <div class="confidence-label">
+                        Win probability:
+                        <span class="{probability_class}">
+                            {probability_text}
+                            {probability:.1f}%
+                        </span>
+                    </div>
 
-                        <div class="team-code">
+                </div>
+
+
+                <div class="matchup">
+
+                    <div class="team">
+
+                        <div class="team-mark">
                             {away}
                         </div>
 
-                        <div class="team-name">
-                            {TEAM_NAMES.get(
-                                away,
-                                away
-                            )}
-                        </div>
+                        <div>
 
-                        <div class="team-record">
-                            {away_record}
+                            <div class="team-code">
+                                {away}
+                            </div>
+
+                            <div class="team-name">
+                                {TEAM_NAMES.get(away, away)}
+                            </div>
+
+                            <div class="team-record">
+                                {away_record}
+                            </div>
+
                         </div>
 
                     </div>
 
-                </div>
+
+                    <div class="versus">
+                        @
+                    </div>
 
 
-                <div class="versus">
-                    @
-                </div>
+                    <div class="team team-right">
 
+                        <div>
 
-                <div class="team team-right">
+                            <div class="team-code">
+                                {home}
+                            </div>
 
-                    <div>
+                            <div class="team-name">
+                                {TEAM_NAMES.get(home, home)}
+                            </div>
 
-                        <div class="team-code">
+                            <div class="team-record">
+                                {home_record}
+                            </div>
+
+                        </div>
+
+                        <div class="team-mark">
                             {home}
                         </div>
 
-                        <div class="team-name">
-                            {TEAM_NAMES.get(
-                                home,
-                                home
-                            )}
+                    </div>
+
+                </div>
+
+
+                <div class="probability-section">
+
+                    <div class="probability-row">
+
+                        <div class="probability-team">
+                            {away}
                         </div>
 
-                        <div class="team-record">
-                            {home_record}
+                        <div class="probability-value">
+                            {away_prob:.1f}%
                         </div>
 
                     </div>
 
-                    <div class="team-mark">
-                        {home}
+                    <div class="bar">
+                        <div
+                            class="{away_bar_class}"
+                            style="width:{away_prob}%"
+                        ></div>
+                    </div>
+
+
+                    <div class="probability-row">
+
+                        <div class="probability-team">
+                            {home}
+                        </div>
+
+                        <div class="probability-value">
+                            {home_prob:.1f}%
+                        </div>
+
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="{home_bar_class}"
+                            style="width:{home_prob}%"
+                        ></div>
+                    </div>
+
+                </div>
+
+
+                <div class="card-bottom">
+
+                    <div class="card-stat">
+
+                        <div class="card-stat-label">
+                            Away PPG
+                        </div>
+
+                        <div class="card-stat-value">
+                            {away_stats['ppg']:.1f}
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-stat">
+
+                        <div class="card-stat-label">
+                            Home PPG
+                        </div>
+
+                        <div class="card-stat-value">
+                            {home_stats['ppg']:.1f}
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-stat">
+
+                        <div class="card-stat-label">
+                            EPA Edge
+                        </div>
+
+                        <div class="card-stat-value">
+                            {row['off_epa_diff']:+.3f}
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="prediction-strip">
+
+                    <div>
+
+                        <div class="prediction-caption">
+                            Model prediction
+                        </div>
+
+                        <div class="prediction-name">
+                            {TEAM_NAMES.get(winner, winner)}
+                        </div>
+
+                    </div>
+
+                    <div class="prediction-probability">
+                        {probability:.1f}%
                     </div>
 
                 </div>
 
             </div>
-
-
-            <div class="probability-section">
-
-                <div class="probability-row">
-
-                    <div class="probability-team">
-                        {away}
-                    </div>
-
-                    <div class="probability-value">
-                        {away_prob:.1f}%
-                    </div>
-
-                </div>
-
-                <div class="bar">
-
-                    <div
-                        class="{away_bar_class}"
-                        style="width:{away_prob}%"
-                    ></div>
-
-                </div>
-
-
-                <div class="probability-row">
-
-                    <div class="probability-team">
-                        {home}
-                    </div>
-
-                    <div class="probability-value">
-                        {home_prob:.1f}%
-                    </div>
-
-                </div>
-
-                <div class="bar">
-
-                    <div
-                        class="{home_bar_class}"
-                        style="width:{home_prob}%"
-                    ></div>
-
-                </div>
-
-            </div>
-
-
-            <div class="card-bottom">
-
-                <div class="card-stat">
-
-                    <div class="card-stat-label">
-                        Away PPG
-                    </div>
-
-                    <div class="card-stat-value">
-                        {away_stats['ppg']:.1f}
-                    </div>
-
-                </div>
-
-
-                <div class="card-stat">
-
-                    <div class="card-stat-label">
-                        Home PPG
-                    </div>
-
-                    <div class="card-stat-value">
-                        {home_stats['ppg']:.1f}
-                    </div>
-
-                </div>
-
-
-                <div class="card-stat">
-
-                    <div class="card-stat-label">
-                        EPA Edge
-                    </div>
-
-                    <div class="card-stat-value">
-                        {row['off_epa_diff']:+.3f}
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="prediction-strip">
-
-                <div>
-
-                    <div class="prediction-caption">
-                        Model prediction
-                    </div>
-
-                    <div class="prediction-name">
-                        {TEAM_NAMES.get(
-                            winner,
-                            winner
-                        )}
-                    </div>
-
-                </div>
-
-                <div class="prediction-probability">
-                    {confidence:.1f}%
-                </div>
-
-            </div>
-
-        </div>
-        """
-
-        st.html(card)
+            """
+        )
 
         # ----------------------------------------------------
         # DETAILS
@@ -2175,12 +2011,24 @@ if page == "Predictions":
                 ],
 
                 "Home vs Away": [
-                    f"{row['home_win_pct'] - row['away_win_pct']:+.3f}",
-                    f"{row['rolling_point_diff_diff_5']:+.2f}",
-                    f"{row['off_epa_diff']:+.3f}",
-                    f"{row['def_epa_diff']:+.3f}",
-                    f"{row['rolling_pass_epa_diff_5']:+.3f}",
-                    f"{row['rolling_rush_epa_diff_5']:+.3f}",
+                    (
+                        f"{row['home_win_pct'] - row['away_win_pct']:+.3f}"
+                    ),
+                    (
+                        f"{row['rolling_point_diff_diff_5']:+.2f}"
+                    ),
+                    (
+                        f"{row['off_epa_diff']:+.3f}"
+                    ),
+                    (
+                        f"{row['def_epa_diff']:+.3f}"
+                    ),
+                    (
+                        f"{row['rolling_pass_epa_diff_5']:+.3f}"
+                    ),
+                    (
+                        f"{row['rolling_rush_epa_diff_5']:+.3f}"
+                    ),
                 ],
             })
 
@@ -2197,7 +2045,7 @@ if page == "Predictions":
 
 elif page == "Team Stats":
 
-    st.markdown(
+    st.html(
         """
         <div class="section-header">
 
@@ -2214,8 +2062,7 @@ elif page == "Team Stats":
             </div>
 
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
     stats = (
@@ -2230,8 +2077,7 @@ elif page == "Team Stats":
                     pl.col("games")
                     -
                     pl.col("wins")
-                )
-                .cast(pl.Utf8)
+                ).cast(pl.Utf8)
             ).alias("record"),
         ])
         .select([
@@ -2289,7 +2135,10 @@ elif page == "Team Stats":
 
 elif page == "Model":
 
-    st.markdown(
+    training_min = model_data["season"].min()
+    training_max = model_data["season"].max()
+
+    st.html(
         """
         <div class="section-header">
 
@@ -2306,15 +2155,14 @@ elif page == "Model":
             </div>
 
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
     a, b, c = st.columns(3)
 
     with a:
 
-        st.markdown(
+        st.html(
             """
             <div class="metric-card">
 
@@ -2331,14 +2179,13 @@ elif page == "Model":
                 </div>
 
             </div>
-            """,
-            unsafe_allow_html=True,
+            """
         )
 
     with b:
 
-        st.markdown(
-            """
+        st.html(
+            f"""
             <div class="metric-card">
 
                 <div class="metric-label">
@@ -2346,7 +2193,7 @@ elif page == "Model":
                 </div>
 
                 <div class="metric-value">
-                    13
+                    {len(V3_FEATURES)}
                 </div>
 
                 <div class="metric-note">
@@ -2354,14 +2201,13 @@ elif page == "Model":
                 </div>
 
             </div>
-            """,
-            unsafe_allow_html=True,
+            """
         )
 
     with c:
 
-        st.markdown(
-            """
+        st.html(
+            f"""
             <div class="metric-card">
 
                 <div class="metric-label">
@@ -2369,7 +2215,7 @@ elif page == "Model":
                 </div>
 
                 <div class="metric-value">
-                    2015–2025
+                    {training_min}–{training_max}
                 </div>
 
                 <div class="metric-note">
@@ -2377,11 +2223,10 @@ elif page == "Model":
                 </div>
 
             </div>
-            """,
-            unsafe_allow_html=True,
+            """
         )
 
-    st.markdown(
+    st.html(
         """
         <div class="model-panel">
 
@@ -2398,8 +2243,8 @@ elif page == "Model":
                 <br><br>
 
                 <b>Recent form</b><br>
-                Five-game rolling measures capturing current team
-                performance.
+                Five-game rolling measures capturing current
+                team performance.
 
                 <br><br>
 
@@ -2409,15 +2254,14 @@ elif page == "Model":
 
                 <br><br>
 
-                All matchup features are calculated using information
-                available before the corresponding game, preventing
-                future-game leakage.
+                All matchup features are calculated using
+                information available before the corresponding
+                game, preventing future-game leakage.
 
             </div>
 
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
     st.markdown(
@@ -2425,14 +2269,17 @@ elif page == "Model":
     )
 
     feature_table = pl.DataFrame({
+
         "Feature Group": [
             "Season",
             "Season",
             "Season",
+
             "Recent Form",
             "Recent Form",
             "Recent Form",
             "Recent Form",
+
             "EPA",
             "EPA",
             "EPA",
@@ -2445,10 +2292,12 @@ elif page == "Model":
             "Win percentage difference",
             "Points per game difference",
             "Defensive performance difference",
+
             "Rolling win percentage",
             "Rolling PPG",
             "Rolling defensive performance",
             "Rolling point differential",
+
             "Offensive EPA",
             "Defensive EPA",
             "Rolling offensive EPA",
@@ -2469,7 +2318,7 @@ elif page == "Model":
 # FOOTER
 # ============================================================
 
-st.markdown(
+st.html(
     """
     <div style="
         text-align:center;
@@ -2485,6 +2334,5 @@ st.markdown(
         &nbsp;•&nbsp;
         NFLverse
     </div>
-    """,
-    unsafe_allow_html=True,
+    """
 )
